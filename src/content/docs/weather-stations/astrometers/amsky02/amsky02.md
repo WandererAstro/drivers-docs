@@ -2,7 +2,7 @@
 title: AstroMeters AMSKY02
 categories: ["weather-stations", "auxiliaries"]
 description: Dual sky quality (SQM), dual IR cloud sensor (32×24 px) and environmental monitoring for autonomous observatories.
-thumbnail: ./amsky02.png
+thumbnail: ./amsky02.webp
 ---
 
 ## Overview
@@ -65,7 +65,7 @@ Apply with:
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 
-![INDI control panel](./images/indi-panel.png)
+![INDI control panel](./images/indi-panel.webp)
 
 ## Python Viewer
 
@@ -75,7 +75,7 @@ A GUI visualiser (`amsky01_viewer.py`) is available for real-time display of the
 python3 amsky01_viewer.py --port /dev/ttyACM0 --baud 115200
 ```
 
-![Python GUI viewer](./images/python-ui.png)
+![Python GUI viewer](./images/python-ui.webp)
 
 ## Technical Specifications
 

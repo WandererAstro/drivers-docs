@@ -2,14 +2,14 @@
 title: AstroMeters AMSKY01
 categories: ["weather-stations", "auxiliaries"]
 description: Sky quality, cloud detection and environmental sensor with infrared thermopile array, SQM and humidity sensor.
-thumbnail: ./images/amsky01-outdoor.png
+thumbnail: ./images/amsky01-outdoor.webp
 ---
 
 ## Overview
 
 The **AMSKY01** is a compact, weatherproof sky sensor designed for astronomical observatories and environmental monitoring. It combines sky brightness measurement, infrared cloud detection and ambient condition monitoring in a single outdoor-rated unit.
 
-![AMSKY01 outdoor installation](./images/amsky01-outdoor.png)
+![AMSKY01 outdoor installation](./images/amsky01-outdoor.webp)
 
 > **Note:** AMSKY01 is the first generation of the AstroMeters sky sensor family. Its successor, [AMSKY02](https://astrometers.eu/products/AMSKY02/), provides dual SQM sensors and a higher-resolution dual thermopile array. Both models use the same `indi_amsky01` driver and communication protocol.
 
@@ -52,7 +52,7 @@ Apply with:
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 
-![INDI control panel](./images/indi-panel.png)
+![INDI control panel](./images/indi-panel.webp)
 
 ## Python Viewer
 
@@ -62,7 +62,7 @@ A GUI visualiser (`amsky01_viewer.py`) is available for real-time data display i
 python3 amsky01_viewer.py --port /dev/ttyACM0 --baud 115200
 ```
 
-![Python GUI viewer](./images/python-ui.png)
+![Python GUI viewer](./images/python-ui.webp)
 
 ## Technical Specifications
 
